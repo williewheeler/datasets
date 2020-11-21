@@ -6,6 +6,7 @@ Datasets for statistical analysis
 | ------- | ----------- | ------ | ----- |
 | AMZN.csv | Amazon stock data | [Source](https://finance.yahoo.com/quote/AMZN/history?p=AMZN) | |
 | crime-sf-2016.csv | San Francisco 2016 crime data | [Source](https://www.kaggle.com/roshansharma/sanfranciso-crime-dataset) | |
+| lad-markov.dat | Sequence generated from Markov model simulation | [Source](https://github.com/williewheeler/markov_demo) ||
 | hygrometer.csv | IoT hygrometer data | Willie Wheeler | Data collected from a Raspberry Pi hygrometer I built - see [my blog post](https://medium.com/wwblog/connecting-a-raspberry-pi-based-hygrometer-to-azure-iot-central-6e1a00a14639). The first hour of data is missing. The obvious anomalies at night on 11/12 are misreads that happened when I put the device in sleep mode. Our thermostat kicks on at 7:00 AM on weekdays and 8:00 AM on weekends, which you can see in the data. Also 11/13 and 11/14 were cold, whereas 11/15 was not, so you can see that too. |
 | hygrometer2.csv | IoT hygrometer data | Willie Wheeler | Same as above, but with an extra day and with 15m resolution instead of 12m. |
 | hygrometer3.csv | IoT hygrometer data | Willie Wheeler | Same as above, but excludes large anomaly and has 6m resolution. |
